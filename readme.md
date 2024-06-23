@@ -1,6 +1,6 @@
-# Gerador de QR code
-### Feito em Html, Css e JavaScript
-### QR code funcional, consumida API para geração.
-<a href="https://vinicius-rodriguess.github.io/Gerador-de-QR-code/" target="_blank">Clique aqui para testar o projeto!</a>
+# QR Code Generator
+### This project generates a functional QR code using an API for its creation.
+<a href="https://vinicius-rodriguess.github.io/Gerador-de-QR-code/" target="_blank">
+Click here to test the project!</a>
 <p></p>
 <img src="./src/img/qrcode.png"/>
