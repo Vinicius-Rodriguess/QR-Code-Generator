@@ -1,39 +1,66 @@
-# Gerador de QR Code
+# 📱 **QR Code Generator**
 
-**Visão Geral**  
-O projeto *Gerador de QR Code* oferece uma solução prática e eficiente para criar QR codes. Esta ferramenta interativa permite aos usuários gerar QR codes personalizados de forma rápida e fácil usando uma API especializada.
+O projeto **QR Code Generator** oferece uma solução prática e eficiente para criar QR codes. Esta ferramenta interativa permite aos usuários gerar QR codes personalizados de forma rápida e fácil usando uma API especializada.
 
-**Funcionalidades**
+---
 
-- **Geração de QR Code Personalizado:** Crie QR codes com base nas informações fornecidas pelo usuário, como URLs, textos ou outros dados.
-- **Interface Amigável:** Uma interface simples e intuitiva para geração fácil de QR codes.
-- **Integração com API Externa:** Utiliza uma API para garantir a geração precisa e de alta qualidade dos QR codes.
-- **Visualização Imediata:** Exibe o QR code gerado em tempo real.
-- **Opção de Download:** Permite aos usuários baixar a imagem do QR code gerado para uso conveniente.
+## 🚀 **Funcionalidades**
 
-Se você precisa de um QR code para um site, evento ou qualquer outro propósito, este gerador oferece uma experiência rápida e sem complicações.
+- **Geração de QR Codes**: Permite criar QR codes a partir de qualquer texto ou URL fornecido.
+- **Interatividade com o Usuário**: Oferece feedback visual e textual durante o processo de geração.
+- **Atalhos de Teclado**: Gera QR codes ao pressionar a tecla `Enter`.
+- **Interface Responsiva**: Adapta-se a diferentes tamanhos de tela para uma melhor experiência do usuário.
+
+---
+
+## 🛠️ **Tecnologias Utilizadas**
+
+- **HTML5**: Estruturação da página.
+- **CSS3**: Estilização e design responsivo.
+- **TypeScript**: Lógica de geração de QR codes e manipulação do DOM.
+- **API externa**: Uso da [QR Server API](https://goqr.me/api/) para gerar os QR codes.
+
+---
+
+## 🔧 **Como Executar o Projeto**
 
 <a href="https://vinicius-rodriguess.github.io/QR-Code-Generator/" target="_blank">Clique aqui para testar o projeto!</a>
-<p></p>
-
 
 <img src="./src/img/qrcode.png"/>
 
+Ou então:
 
-# QR Code Generator
+1. **Clone este Repositório**:
 
-**Overview**  
-The *QR Code Generator* project provides a practical and efficient solution for creating QR codes. This interactive tool allows users to generate custom QR codes quickly and easily using a specialized API.
+   ```bash
+   git clone https://github.com/Vinicius-Rodriguess/QR-Code-Generator.git
+   cd qr-code-generator
+   ```
 
-**Features**
+2. **Abra o arquivo** `index.html` **em seu navegador** para utilizar o gerador de QR codes.
 
-- **Custom QR Code Generation:** Create QR codes based on user-provided information such as URLs, text, or other data.
-- **User-Friendly Interface:** A simple and intuitive interface for easy QR code generation.
-- **External API Integration:** Utilizes an API to ensure accurate and high-quality QR code generation.
-- **Immediate Visualization:** Displays the generated QR code in real-time.
-- **Download Option:** Allows users to download the generated QR code image for convenient use.
+---
 
-Whether you need a QR code for a website, event, or any other purpose, this generator offers a quick and hassle-free experience.
-<a href="https://vinicius-rodriguess.github.io/QR-Code-Generator/" target="_blank">
-Click here to test the project!</a>
-<p></p>
+## 🖥️ **Exemplo de Uso**
+
+1. **Insira um texto ou URL** no campo de entrada.
+2. **Clique em "Gerar QR code"** ou pressione `Enter` para criar o QR code.
+3. **Visualize o código gerado** e utilize-o conforme necessário.
+
+---
+
+## ✅ **Melhorias Futuras**
+
+- Adicionar opções de personalização como cor, tamanho e logotipo no QR code.
+- Implementar suporte para download direto do QR code gerado.
+- Melhorar o design da interface para uma experiência mais intuitiva.
+- Expandir suporte para múltiplos idiomas.
+
+---
+
+## 👨‍💻 **Autor**
+
+**Vinicius Rodrigues**
+
+- GitHub: [Vinicius-Rodriguess](https://github.com/Vinicius-Rodriguess)
+- Email: rodrigues.vini.2004@gmail.com
